@@ -1,0 +1,23 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "aut.rgbl-58-1906-gmbh-gesetz"
+           :title "Gesetz vom 6. März 1906 über Gesellschaften mit beschränkter Haftung (GmbH-Gesetz)"
+           :jurisdiction "AUT"
+           :kind :law
+           :law-number "RGBl. 1906/58"
+           :url "https://api.shop.manz.at/upload/text/9783214186104/9783214186104_23_01.pdf"
+           :url-provenance :manz-at-legal-publisher
+           :enacted-date "1906-03-06"
+           :retrieved-at "2026-07-17"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "aut.dsg-2018-datenschutzgesetz"
+           :title "Datenschutzgesetz (Federal Act concerning the Protection of Personal Data)"
+           :jurisdiction "AUT"
+           :kind :law
+           :law-number "DSG"
+           :url "https://data-protection-authority.gv.at/data-protection-laws/relevant-data-protection-laws"
+           :url-provenance :official-data-protection-authority-gv-at
+           :enacted-date "2018-05-25"
+           :retrieved-at "2026-07-17"
+           :topic [:data-protection :privacy]}]
